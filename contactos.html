@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <link rel="StyleSheet" href="css/formulario.css" type="text/css">
+        <link rel="stylesheet" href="css/header.css">
+        <title> Contacto </title>
+    </head>
+    <body>
+
+    <header>
+        <a href= "index.html"> <img src="img/Foto de Perfil.png" width="200" height="185" alt="Logotipo"></a>
+        <h1 id="logoh1">Contactanos</h1>
+    </header>
+
+    <nav class="menu">
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="productos.html">Productos</a></li>
+            <li><a href="acercade.html">Sobre la empresa</a></li>
+            <li><a href="contactos.html">Contactanos</a></li>
+        </ul>
+    </nav>
+
+    <h2>Contactanos</h2>
+    <form class="formulario" action="#" method="POST">
+    <legend>Contáctanos llenando todos los campos</legend>
+
+    <section class="contenedor">
+        <section class="campo">
+            <label>Nombre</label>
+
+            <input type="text" name="nombre" placeholder="Nombre" required>
+        </section>
+        <section class="telefono">
+            <label>Teléfono</label>
+            <input type="tel" name="telefono" placeholder="Teléfono" required>
+        </section>
+        <section class="correo">
+            <label>Correo</label>
+            <input type="mail" name="correo" placeholder="Mail" required>
+        </section>
+        <section class="mensaje">
+            <label>Mensaje:</label>
+            <textarea></textarea>
+        </section>
+    </section>
+    <section class="enviar">
+        <input class="boton" type="submit" value="Enviar">
+    </section>
+</form>
+
+<footer id="pie">
+    <p>Creado por: Daniel Pinargo</p>
+    <p>Contacto: <a href="mailto:daniel.pinargo@gmail.com">daniel.pinargo@gmail.com</a> <a href="tel:+593984756443">+593984756443</a> </p>
+    Derechos Reservados &copy; 2021-2022
+</footer>
+</body>
+    
+</html>

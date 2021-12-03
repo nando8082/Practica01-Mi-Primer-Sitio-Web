@@ -1,0 +1,81 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+ 
+body{
+  background-color: rgb(170, 211, 207);
+}
+
+section article {
+margin: auto;
+overflow: hidden;
+font-family: fantasy;
+}
+
+video {
+width: 500px;
+height: 331px;
+padding: 18px;
+float: right;
+}
+
+footer {
+padding-bottom: 0%;
+}
+
+#tabla {
+width:100%; 
+}
+    
+th {
+border:2px solid black;
+}
+
+.cuadro {
+  display: grid;
+  grid-template-columns: repeat(3, 250px);
+  grid-template-rows: 150px;
+  grid-gap: 1rem;
+  justify-content: center;
+  background-color: white;
+  background-size: auto;
+}
+
+section article img {
+  width: 50%;
+  height: 20%;
+}
+
+h3 {
+  text-decoration: underline;
+  font-size: 0.9rem;
+}
+
+#intel, #amd {
+  font-size: 5.5rem;
+  margin: 35px;
+  font-family: helvetica;
+  height: 100%;
+}
+
+.lateral {
+  float: left;
+  font-family: helvetica;
+  font-weight: bold;
+  background-color: thistle;
+}
+
+.lateral li {
+  font-size: 2.2rem;
+  padding-left:3px;
+  padding-right:3px;
+}
+    
+#pie {
+  padding:10px;
+  color:#fff;
+  background-color:#141518;
+  clear:left;
+}
+ 

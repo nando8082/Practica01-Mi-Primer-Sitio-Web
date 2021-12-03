@@ -1,0 +1,9 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  .columna {
+    float: left;
+    width: 50%;
+    padding-right: 5px;
+  }

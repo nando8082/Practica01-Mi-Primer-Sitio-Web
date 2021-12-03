@@ -1,0 +1,60 @@
+header {
+    width: 100%;
+    overflow: hidden;
+    background-image: url("/xampp/htdocs/SPO/img/empresa.jpg");
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 0px;  
+}
+
+header a{
+    float: left;
+    margin-top: 70px;
+    margin-bottom: 50px;
+    margin-left: 25px;
+}
+
+header h1{
+     color:#29ABE2;
+     font-size: 58px;
+     float: none;
+     margin-top: 130px;
+   }
+
+h1 {
+    font-size: 1.4rem;
+    text-align: center;
+}
+
+.menu {
+    display: -moz-inline-box;
+    margin-top: 0%;
+    height: 60px;
+    background-color:#141518;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+nav ul{
+     list-style: none;
+     display: inline-block;
+     padding:18px;
+  }
+
+  nav ul li{
+      float: left;
+      margin-top: 20px;
+  }
+
+  nav ul li a {
+      color: white;
+      font-weight: bold;
+      text-decoration: none;
+      font-size: 20px;
+      padding: 18px;
+  }
+
+  nav ul li a:hover{
+    background-color: #ebb80a;
+    border-radius: 50px;
+  }

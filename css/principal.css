@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Krub', sans-serif;
+    background-image: linear-gradient(to top, #dfe9f3 0%, white 100%);
+    min-height: 100%;
+    
+}
+
+  section {
+      font-family: Helvetica, sans-serif;
+      margin: auto;
+
+  }
+  
+  section article, section a {
+      width: 90%;
+      max-width: 1000px;
+      margin: auto;
+      overflow: hidden;
+      padding: 10px;
+  }
+
+  #youtube {
+      float: right;
+      width: 500px;
+      height: 450px;
+      overflow: hidden;
+      
+  }
+
+  #vid {
+      overflow: hidden;
+  }
+
+  #tabla {
+      padding: 15px;
+  }
+
+  table {
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    font-family: Helvetica;
+  }
+  
+  th {     
+      font-size: 26px;     
+      font-weight: normal; 
+      font-family: helvetica;
+      color: #000000;    
+      padding: 8px;     
+      background: #b9c9fe;
+      border-top: 4px solid #aabcfe;    
+      border-bottom: 1px solid #fff; color: #039; 
+    }
+    
+    td {    
+        padding: 8px;     
+        background: #e8edff;     
+        border-bottom: 1px solid #fff;
+        color: #000000;    
+        border-top: 1px solid transparent; 
+        text-align: center;
+    }
+    
+    tr:hover td {
+        background: #d0dafd; 
+        color: #339; 
+    }
+
+    #pie {
+        padding:10px;
+        color:#fff;
+        background-color:#141518;
+        clear:left;
+    }
+    section article img {
+        width: 50%;
+        height: 20%;
+    }
+
+    .marcas {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, 250px);
+        grid-template-rows: 150px;
+        grid-gap: 1rem;
+        justify-content: center;
+    }

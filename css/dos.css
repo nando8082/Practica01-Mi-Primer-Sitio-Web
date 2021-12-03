@@ -1,0 +1,67 @@
+*{
+  margin: 0%;
+  padding: 0%;
+}
+
+body {
+  background-image: url(/xampp/htdocs/SPO/img/fondo.jpg);
+  background-size: cover;
+}
+
+section iframe {
+  width: 100%;
+  height: 531px;
+  padding-top: 0%;
+}
+
+#columna1 {
+  position: absolute;
+  margin-top: 450px;
+  left:0px;
+  width:200px;
+  margin-top:40px;
+
+  }
+  #columna2 {
+  margin-left:260px;
+  margin-right:20px;
+  margin-top: 16px;
+  font-family: Helvetica;
+  color: rgb(207, 240, 240);
+  }
+
+  #celular {
+    margin-top: 125px;
+  }
+
+  #impresora {
+    margin-top: 155px;
+  }
+
+  #procesador {
+    margin-top: 101px;
+  }
+
+  #pantalla {
+    margin-top: 114px;
+  }
+
+  #disco {
+    margin-top: 110px;
+  }
+
+  h2 {
+    font-family: Helvetica;
+    font-size: 5.6rem; 
+    text-align: center;
+    color: rgb(207, 240, 240);
+  }
+
+  #pie {
+    margin-top: 210px;
+    margin-bottom: 0px;
+    padding:10px;
+    color:#fff;
+    background-color:#141518;
+    clear:left;
+}
